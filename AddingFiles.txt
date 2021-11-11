@@ -60,4 +60,3 @@ this can be used before add or commit command , if we do changes in file and don
 
 
 
->>>>>>> Stashed changes
