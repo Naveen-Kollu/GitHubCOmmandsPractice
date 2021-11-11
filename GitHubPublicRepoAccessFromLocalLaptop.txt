@@ -1,0 +1,14 @@
+1) Accessing and commit the changes to Public Git Pub repository from Local Laptop Process
+------------------------------------------------------------------------------------------------
+
+1)Create repository in Public Got hub using personal email ID : Naveen538.k@gmail.com
+
+2)If you are doing changes first time from new laptop or device into Public Git repository, first you create one folder on local laptop and execute the command given in Git pub page after you create repository from Git hub gui page
+
+3) one those command are executed from CMD from local laptop then create Private and Public key using following command from CMD ssh-keygen
+
+4) Above step will create the Praivate and public key under users provide under ..sh folder
+
+5)Copy the content of Public key and login into Git Hub pahe and go to user profile settings and select the section SSH and GPG Keys section and click on New SSH key and paste the public key content 
+
+6) Now you can push the changes from your local alptop to Public Git Hub Repository

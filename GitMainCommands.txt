@@ -1,0 +1,20 @@
+git init    ---------------   Initilization
+git config
+git add    -----------------  adds changed files to repo after that need to commit
+git commit -----------------  commit the changes to repo after adding files
+git status ----------------   gives the status of files under folders
+gitk
+git log  -----------------  
+git show  ---------------
+bit branch
+git switch
+git clone
+git checkout
+git merge/rebase
+git pull/push/fetch
+git remote
+git cheery-pick
+git reset
+git stash
+git tag
+git diff
