@@ -1,0 +1,31 @@
+1) check status of files first
+
+git status
+
+2)Git add .
+
+It will all changes files to staging 
+
+3) git add 'specify files which only need to add'
+
+4)git restore --staged 'filename'
+Removed added files from staging so it will not be added when we commit the push the changes
+
+5)git commit -m "Specify the comment of changes"
+
+6)git config --global user.name "Your Name"
+  git config --global user.email you@example.com
+
+These commands are used to change user details of commiting person if needed
+
+7)git commit --amend
+
+which will ammend the commit or files we commited in previous commit before puch changes to remote repo
+
+
+8)Git push
+
+To push the chnages to repo repo on Public Git Hub
+
+9)Checkout Specific Brnch from Git repo using clone Repo
+
