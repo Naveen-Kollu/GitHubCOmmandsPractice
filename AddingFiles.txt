@@ -1,0 +1,49 @@
+1) check status of files first
+
+git status
+
+2)Git add .
+
+It will all changes files to staging 
+
+3) git add 'specify files which only need to add'
+
+4)git restore --staged 'filename'
+Removed added files from staging so it will not be added when we commit the push the changes
+
+5)git commit -m "Specify the comment of changes"
+
+6)git config --global user.name "Your Name"
+  git config --global user.email you@example.com
+
+These commands are used to change user details of commiting person if needed
+
+7)git commit --amend
+
+which will ammend the commit or files we commited in previous commit before puch changes to remote repo
+
+
+8)Git push
+
+To push the chnages to repo repo on Public Git Hub
+
+9)Checkout Specific Brnch from Git repo using clone Repo
+
+git clone giturl will checkout complete repository which is having all Branches under this repo , so just use 
+
+9.1)git checkout branchname
+
+when pushing changes to specific branch on remote repo then we need to use below command 
+
+9.2)If Brnch is available in Remote repo and not in local then checkout that repo with , for just switching remove -b as above command
+
+git checkout -b branchname
+
+9.3)git push --set-upstream origin branchname
+
+10) git log
+
+it will display all changes done in that checkedout reposiroty, it is repository level not at branch level
+
+
+
