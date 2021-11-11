@@ -29,3 +29,35 @@ To push the chnages to repo repo on Public Git Hub
 
 9)Checkout Specific Brnch from Git repo using clone Repo
 
+<<<<<<< Updated upstream
+=======
+git clone giturl will checkout complete repository which is having all Branches under this repo , so just use 
+
+9.1)git checkout branchname
+
+when pushing changes to specific branch on remote repo then we need to use below command 
+
+9.2)If Brnch is available in Remote repo and not in local then checkout that repo with , for just switching remove -b as above command
+
+git checkout -b branchname
+
+9.3)git push --set-upstream origin branchname
+
+10) git log
+
+it will display changes only related to that specific branch commits it is not showing all branches commits so, Git log is not repository level and it is at branch level
+
+11)git branch 
+
+It will display all branchs chekedout in repo and green one is currently using  branch name
+
+12)git reset --hard {commit-id}" will use a commit in local history, which will take local copy to to specific commit 
+   git rebase origin/{branch-name}" will use the latest commit in the repo
+
+13)git restore AddingFiles.txt
+
+this can be used before add or commit command , if we do changes in file and don't want those changes and revert to old changes then we use this command
+
+
+
+>>>>>>> Stashed changes
